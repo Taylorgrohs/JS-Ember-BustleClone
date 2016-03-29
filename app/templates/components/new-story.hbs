@@ -17,13 +17,17 @@
       </div>
 
       <div class="form-group">
-        <label for="body1">First Paragraph</label>
-        {{input class="form-big" value=body1 id="body1"}}
+        <div>
+          <label for="body1">First Paragraph</label>
+        </div>
+        {{textarea class="form-big" value=body1 id="body1"}}
       </div>
 
       <div class="form-group">
         <label for="body2">Second Paragraph</label>
-        {{input class="form-big" value=body2 id="body2"}}
+        <div>
+          {{textarea class="form-big" value=body2 id="body2"}}
+        </div>
       </div>
 
       <button {{action 'save1'}}>Add Story</button>

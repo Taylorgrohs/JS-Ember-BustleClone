@@ -6,6 +6,6 @@ export default Ember.Route.extend({
       var newStory = this.store.createRecord('story', params);
       newStory.save();
       this.transitionTo('index');
-    }
+    },
   }
 });
