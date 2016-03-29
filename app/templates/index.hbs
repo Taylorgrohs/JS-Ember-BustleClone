@@ -1,1 +1,7 @@
-{{outlet}}
+<h1>THE STOREEEEZ</h1>
+
+<ul>
+  {{#each model as |story|}}
+    {{story-tile story=story}}
+  {{/each}}
+</ul>
