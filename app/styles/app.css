@@ -13,3 +13,8 @@ img {
   border: 1px solid #999999;
   padding: 5px;
 }
+#carousel-example-generic {
+  max-width: 500px;
+  max-height: 500px;
+  padding-left: 300px;
+}
