@@ -1,11 +1,8 @@
-<h2>{{story.title}}</h2>
+{{#link-to 'story' story.id}}<h2>{{story.title}}</h2>
 <p>
   by: {{story.author}}
 </p>
 <p>
   <img src={{story.image}}>
-</p>
-<h4>{{story.body1}}</h4>
-<br>
-<h4>{{story.body2}}</h4>
+</p>{{/link-to}}
 <hr>

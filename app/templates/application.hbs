@@ -1,14 +1,17 @@
 <nav class="navbar navbar-default">
- {{#link-to 'index'}}Home{{/link-to}}
- <!-- {{#link-to 'admin'}}Admin{{/link-to}} -->
+  <ul class="nav navbar-nav">
+    <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+    <li>{{#link-to 'admin'}}Admin{{/link-to}}</li>
+  </ul>
+
 </nav>
 
 
-<header class="jumbotron">
-  <h1>BUSTLECLONE</h1>
-</header>
 
-<div class="conatainer">
+<div class="container">
+  <header class="jumbotron">
+    <h1>BUSTLECLONE</h1>
+  </header>
   {{outlet}}
 </div>
 
